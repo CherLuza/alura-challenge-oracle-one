@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/alura-logo.png" alt="Ícone da Alura">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="img/alura-logo.png" alt="Logotipo Alura">
+    </header>
+
+    <main>
+
+        <section class="encrypt">
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="text-warning">
+                <h1>Apenas letras minúsculas e sem acento.</h1>
+            </div>
+
+            <div class="buttons">
+                <button class="button-encrypter" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+
+                <button class="button-decrypter" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+
+        <section class="decrypt">
+            <div class="decrypt-container">
+                <textarea class="text-area-decrypt" cols="20" rows="10"
+                    placeholder="Digite um texto que você deseja criptografar ou descriptografar.">
+    Digite um texto que você deseja criptografar ou descriptografar.
+</textarea>
+                <button class="button-copy-text">
+                    Copiar
+                </button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="presentation">
+            <h3>Copyright ©️ 2024 - Cher Oliboni Luza</h3>
+            <a href="https://github.com/CherLuza" target="_blank" class="icon">
+                <img class="logo-github" src="img/github-logo.png" alt="Ícone do Github">
+            </a>
+            <a href="mailto: cherluza@gmail.com" class="icon">
+                <img class="logo-email" src="img/email-logo.png" alt="Ícone de email">
+            </a>
+        </section>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
